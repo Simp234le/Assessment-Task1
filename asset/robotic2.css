@@ -1,0 +1,139 @@
+/* -------------------------------------- */
+/* Basic Setting */
+/* -------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 1.6rem "Lato", sans-serif;
+  position: relative;
+}
+
+/* -------------------------------------- */
+/* Nav Setting */
+/* -------------------------------------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+  background-color: #EEEEEE;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+li {
+  opacity: 1;
+  padding-bottom: 0.5rem;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  border: solid transparent 2px;
+}
+
+li:hover {
+  opacity: 1;
+  border-bottom-color: #000;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+a:hover {
+  color: #333;
+  transition-duration: 2s;
+}
+
+i {
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+
+
+/* -------------------------------------- */
+/* Main Setting */
+/* -------------------------------------- */
+main:not(i) {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* -------------------------------------- */
+/* Section First Setting */
+/* -------------------------------------- */
+section:first-of-type {
+  background-color: #eee;
+  height: 100vh; 
+  position: relative;
+}
+
+div:first-of-type {
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2:first-of-type {  
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+hr {
+  border: solid #4052B5 0.3rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+/* -------------------------------------- */
+/* Section Two Setting */
+/* -------------------------------------- */
+section:nth-of-type(2) {
+  height: 100vh; 
+  position: relative;
+}
+
+div:nth-of-type(2) {
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* -------------------------------------- */
+/* Section Three Setting */
+/* -------------------------------------- */
+section:last-of-type {
+  background-color: #eee;
+  height: 100vh; 
+  position: relative;
+}
+
+div:last-of-type {
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section i {
+  margin-left: 120rem;
+  margin-top: 60rem;
+}
